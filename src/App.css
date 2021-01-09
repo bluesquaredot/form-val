@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  background-color: #256EFF;
+  height: 100vh;
+}
+
+h3{
+  color: lightgray;
+  text-align: left;
+  margin-left: 35px;
+  text-decoration: underline;
+  text-transform: capitalize;
+
+}
+
+.container{
+  border: solid gray 1px;
+  background-color: #31263E;
+  width: 50vw;
+  height: 50vh;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 16px 20px 5px 0px  #EE5622;
+  positon: absolute;
+}
+.input{
+  padding: 15px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+.input:focus{
+  outline: none !important;
+  border: solid 2px #EE5622;
+}
+
+.btn-login{
+  position: relative;
+  bottom:6em ;
+  background-color: white;
+  width: 40%;   
+  padding: 15px 0px;
+  border-radius: 5px;
+  font-size: 17px;
+  outline: none !important;
+  text-transform: uppercase;
+}
+
+.btn-login:hover{
+  background-color: #EE5622;
+  color: white;
+}
